@@ -1,0 +1,7 @@
+[core]
+    autostage = true
+    remote = storage
+['remote "storage"']
+    url = gdrive://15S0GXxXODnSb9La6GT3zX3ZUeV_eSz3F
+    gdrive_use_service_account = true
+    gdrive_service_account_json_file_path = ../UsersASUSDesktopdvc-projecdvc.json
