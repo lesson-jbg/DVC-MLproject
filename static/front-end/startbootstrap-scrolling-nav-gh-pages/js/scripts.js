@@ -1,5 +1,4 @@
 window.addEventListener('DOMContentLoaded', event => {
-    // Activate Bootstrap scrollspy on the main nav element
     const mainNav = document.body.querySelector('#mainNav');
     if (mainNav) {
         new bootstrap.ScrollSpy(document.body, {
@@ -8,7 +7,7 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     }
 
-    // Collapse responsive navbar when toggler is visible
+
     const navbarToggler = document.body.querySelector('.navbar-toggler');
     const responsiveNavItems = [].slice.call(
         document.querySelectorAll('#navbarResponsive .nav-link')
@@ -21,7 +20,7 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
-    fetch('assets/contry.txt')
+    fetch('static/front-end/startbootstrap-scrolling-nav-gh-pages/assets/contry.txt')
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! Status: ${response.status}`);
@@ -43,4 +42,13 @@ window.addEventListener('DOMContentLoaded', event => {
         .catch(error => {
             console.error('Error fetching country list:', error);
         });
+        function scrollToResult() {
+            setTimeout(() => {
+                const resultSection = document.getElementById('result');
+                if (resultSection) {
+                    resultSection.scrollIntoView({ behavior: 'smooth' });
+                }
+            }, 500); 
+        }
+        
 });

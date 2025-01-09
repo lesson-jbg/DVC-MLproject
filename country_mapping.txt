@@ -1,0 +1,56 @@
+United States: 134
+India: 108
+New Zealand: 78
+United Kingdom: 67
+Jordan: 55
+United Arab Emirates: 40
+Australia: 37
+Canada: 30
+Afghanistan: 22
+Netherlands: 20
+Austria: 18
+Sri Lanka: 17
+Brazil: 12
+France: 10
+Spain: 10
+Kazakhstan: 10
+Ireland: 9
+Iran: 8
+Russia: 7
+South Africa: 6
+Bahamas: 6
+Italy: 6
+Malaysia: 6
+Viet Nam: 5
+Nicaragua: 4
+Pakistan: 4
+Armenia: 4
+AmericanSamoa: 4
+Iraq: 4
+Azerbaijan: 4
+Aruba: 4
+Saudi Arabia: 4
+China: 4
+Mexico: 4
+Ukraine: 3
+Niger: 3
+Ethiopia: 3
+Bolivia: 3
+Iceland: 3
+Serbia: 3
+Germany: 3
+Oman: 2
+Cyprus: 2
+Sweden: 2
+Egypt: 1
+Angola: 1
+Hong Kong: 1
+Tonga: 1
+Argentina: 1
+Japan: 1
+Czech Republic: 1
+Sierra Leone: 1
+Romania: 1
+Belgium: 1
+Burundi: 1
+Bangladesh: 1

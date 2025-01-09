@@ -10856,4 +10856,104 @@ section {
   flex: 0 0 calc(33.33% - 1rem);
 }
 
+    .form-row {
+        margin-bottom: 1rem;
+    }
+
+    .form-group label {
+        font-weight: bold;
+        font-size: 0.9rem;
+        margin-bottom: 0.2rem;
+    }
+
+    .form-control {
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+        font-size: 1rem;
+        padding: 0.5rem 2rem;
+        border-radius: 30px;
+    }
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+    .contact-details {
+        font-size: 1rem;
+    }
+
+    .form-section {
+        background-color: #f8f9fa;
+        border: 1px solid #e0e0e0;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-section h2, .form-section h4 {
+        color: #333;
+        margin-bottom: 1rem;
+    }
+
+    .text-center {
+        margin-bottom: 1rem;
+    }
+
+    .form-row .col-md-1, .form-row .col-md-4 {
+        padding: 0 0.5rem;
+    }
+
+    .navbar {
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-link:hover {
+      color: rgb(0, 123, 255) !important;
+  }
+  
+  .navbar-brand img {
+      border-radius: 50%; /* Makes the logo circular */
+  }
+  
+  .navbar-toggler {
+      border: none;
+  }
+  .navbar-custom {
+    background-color: #00796b; /* Calming teal color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-custom .navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-custom .navbar-brand:hover {
+    color: #b2dfdb;
+}
+
+.navbar-custom .nav-link {
+    color: #ffffff;
+    font-size: 1rem;
+    margin-right: 1rem;
+    transition: color 0.3s;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #b2dfdb; /* Soft hover effect */
+}
+
+.navbar-custom .navbar-toggler {
+    border-color: #b2dfdb;
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28178,%20223,%20219,%201%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
 
