@@ -104,7 +104,7 @@ def home():
 
             return render_template(
                 './front-end/startbootstrap-scrolling-nav-gh-pages/index.html',
-    prediction=prediction[0]                             )
+                   prediction=prediction[0]                             )
         except Exception as e:
             print(f"Error during prediction: {e}")
             return render_template(
